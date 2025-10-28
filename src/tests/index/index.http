@@ -1,0 +1,9 @@
+@url = https://sinister-goblin-g4xjxwvrrqx2wq4w-8080.app.github.dev/
+GET {{url}}
+
+###
+
+POST {{url}}
+Content-Type: text/plain
+
+Melancia

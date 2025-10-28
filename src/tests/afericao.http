@@ -1,0 +1,31 @@
+@url = https://sinister-goblin-g4xjxwvrrqx2wq4w-8080.app.github.dev/afericoes
+
+
+POST {{url}}
+Content-Type: application/json
+
+{
+    "id_sensor": "002",
+    "unidade": "V",
+    "valor": "25.4"
+}
+
+
+###
+GET {{url}}
+
+###
+GET {{url}}/1
+
+###
+PUT {{url}}/1
+Content-Type: application/json
+
+{
+    "id_sensor": "001",
+    "unidade": "C",
+    "valor": "37.1"
+}
+
+###
+DELETE {{url}}/1
